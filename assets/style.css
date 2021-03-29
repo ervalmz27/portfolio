@@ -1,0 +1,42 @@
+html{
+    position: relative;
+}
+body{
+    margin-bottom: 100px;
+    margin-top: 30px;
+}
+.jumbotron{
+    height: 400px;
+    background-image: url('img/ruangan.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0 -100px;
+}
+
+.jumbotron img{
+    width: 200px;
+    height: 200px;
+    border: 2px solid 	#eaeaea;
+}
+ hr{
+    width: 200px;
+    border-top: 3px solid #999;
+}
+section{
+    min-height: 600px;
+}
+ .portpolio{
+    background-color: #eee;
+}
+
+.contact{
+    min-height: 800px;
+}
+ footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;    
+    height: 100px;
+    background-color: #333;
+    padding: 50px;
+}
